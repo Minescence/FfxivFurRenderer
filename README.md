@@ -24,7 +24,7 @@ Colour is read from the game's colour table and brightness from the pixels the g
 
 ## Limits
 
-- Performance is rough. I got about 20 fps with 1.67M strands across 8 items on an RTX 3070 at 1440p. Lowering Density or Children per strand in `/fur` helps.
+- Expect around 20 fps with 1.67M strands across 8 items and an RTX 3070 at 1440p. To lessen the impact, lower Density or Children per strand in `/fur` (GPose has its own sliders for both), but it might look a little less like fur.
 - Items at 980k strands or more get skipped, except the Big Fluffy Coat. That means no TRPC blanket or Asylum wall/floor.
 - Shape keys are ignored.
 - One colour per model, and the second dye channel isn't used.
