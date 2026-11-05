@@ -1,8 +1,6 @@
 # Fur Renderer
 
-Mods built on Hikari's fur textures draw fur as a textured mesh. This Dalamud plugin grows actual hair strands on those items, up to about a million per item, and draws them on top of the game's model while you play: they move with your skeleton, pick up your dye and follow the light in the scene.
-
-Only you see the strands. Nothing changes on the server, and other players keep seeing the mod as it normally looks.
+Hikari's fur textures make a mesh look furry. This Dalamud plugin grows actual strands on items that use them, up to about a million each, and draws those over the game's model while you play. They bend with your skeleton and take whatever dye you've applied; walk into shadow and they darken with it.
 
 ## Install
 
@@ -34,9 +32,3 @@ Colour comes straight from the game's colour table, which means a dye change sho
 - Models have to be V6 `.mdl` files with the usual vertex layout; anything else logs a failure and goes without fur.
 
 So far it has only run in game on one female character. Male models and other races should work, but nobody has checked them yet.
-
-## About this repo
-
-This repo holds releases and the plugin listing (`repo.json`). The plugin isn't on the official Dalamud list, so as with any custom repository, you're trusting the author with code that runs inside your game.
-
-Hikari's mods and textures belong to Hikari, and this project isn't affiliated with them.
