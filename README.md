@@ -16,7 +16,7 @@ Then install Fur Renderer from `/xlplugins`. `/fur` opens the settings.
 
 ## How it works
 
-The plugin checks your character's models and your minion for materials that reference `chara/common/texture/minamotohikari/fur_*`. When it finds one it reads the `.mdl` Penumbra loaded and generates the fur on a background thread, which takes about a second per item. Density is 152,525 strands/m² with lengths of 2.5 to 5 cm, using the same hair setup as the TheSleeveExperiment Blender scene. Nothing from the mods ships with the plugin.
+The plugin checks your character's models and your minion for materials that reference `chara/common/texture/minamotohikari/fur_*`. When it finds one it reads the `.mdl` Penumbra loaded and generates the fur on a background thread, which takes about a second per item. Density is 152,525 strands/m² with lengths of 2.5 to 5 cm. Nothing from the mods ships with the plugin.
 
 Every frame a compute shader skins the strands to the live skeleton, including the race deformer from `human.pbd`. The GPU draws them as camera-facing ribbons just before the UI, using the game's depth buffer so they don't show through walls or your body.
 
