@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.4.0.0",
+    "AssemblyVersion": "0.4.1.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
-    "LastUpdate": "1794063571",
-    "Changelog": "Strand tips no longer twinkle: the fur is smoothed over time, following its motion (Temporal smoothing setting, 80% by default, 0 = off). Fur on textured items matches the coat's dye shade without a white undercoat, and fur next to a tail, horns or the chin no longer turns pale."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
+    "LastUpdate": "1794065819",
+    "Changelog": "New LOD bias setting: how fast strands thin out on far items (higher is faster but coarser, 1 as before). Removed the Require coat equipped setting, which no longer changed anything."
   }
 ]
