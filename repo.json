@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.3.0.0",
+    "AssemblyVersion": "0.4.0.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.3.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.3.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.3.0/latest.zip",
-    "LastUpdate": "1794052124",
-    "Changelog": "Fur colour follows each item's live colour table and textures per strand, so dye changes show without regrowing. Hidden and off-screen strands are skipped and far items draw fewer strands. Settings explain themselves on hover and reset from a right-click menu. Fixes from a code audit."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.0/latest.zip",
+    "LastUpdate": "1794063571",
+    "Changelog": "Strand tips no longer twinkle: the fur is smoothed over time, following its motion (Temporal smoothing setting, 80% by default, 0 = off). Fur on textured items matches the coat's dye shade without a white undercoat, and fur next to a tail, horns or the chin no longer turns pale."
   }
 ]
