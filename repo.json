@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.4.1.0",
+    "AssemblyVersion": "0.4.2.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.1/latest.zip",
-    "LastUpdate": "1794065819",
-    "Changelog": "New LOD bias setting: how fast strands thin out on far items (higher is faster but coarser, 1 as before). Removed the Require coat equipped setting, which no longer changed anything."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
+    "LastUpdate": "1794168559",
+    "Changelog": "Draws the fur in about half the GPU time (1440p, 3 m: about 24 ms to 12.6 ms) with the same look. Fur is now 4x anti-aliased by default; the new 8x anti-aliasing setting brings back 8x for about 1.2 ms more. No more stutter when an item's dye changes or fur loads. Large fur props such as Fluffy Asylum's padded walls now grow fur too (they can be expensive)."
   }
 ]
