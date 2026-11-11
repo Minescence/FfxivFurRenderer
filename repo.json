@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.4.2.0",
+    "AssemblyVersion": "0.4.3.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.2/latest.zip",
-    "LastUpdate": "1794168559",
-    "Changelog": "Draws the fur in about half the GPU time (1440p, 3 m: about 24 ms to 12.6 ms) with the same look. Fur is now 4x anti-aliased by default; the new 8x anti-aliasing setting brings back 8x for about 1.2 ms more. No more stutter when an item's dye changes or fur loads. Large fur props such as Fluffy Asylum's padded walls now grow fur too (they can be expensive)."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
+    "LastUpdate": "1794417795",
+    "Changelog": "New \"Other players\" setting (off by default): fur on the other characters around you and on actors posed in GPose, in their own colours. Other players' mods only show on your screen through a sync plugin (Lightless, Mare, Snowcloak), so their fur shows wherever their Hikari items do. Each extra fur coat costs GPU time and about 230 MB of GPU memory. Hair, tails and anything else resting on a fur item now lie on top of the fur instead of showing through it as dark streaks (new setting \"Hair lies on the fur\", on by default). Model files renamed by sync plugins now get the race fit too."
   }
 ]

@@ -16,7 +16,7 @@ Then install Fur Renderer from `/xlplugins`. `/fur` opens the settings.
 
 ## How it works
 
-The plugin checks your character's models and your minion for materials that reference `chara/common/texture/minamotohikari/fur_*`. When it finds one it reads the `.mdl` Penumbra loaded and generates the fur on a background thread, which takes about a second per item. Density is 152,525 strands/m² with lengths of 2.5 to 5 cm. Nothing from the mods ships with the plugin.
+The plugin checks your character's models and your minion (and, with "Other players" on, everyone else in view) for materials that reference `chara/common/texture/minamotohikari/fur_*`. When it finds one it reads the `.mdl` Penumbra loaded and generates the fur on a background thread, which takes about a second per item. Density is 152,525 strands/m² with lengths of 2.5 to 5 cm. Nothing from the mods ships with the plugin.
 
 Every frame a compute shader skins the strands to the live skeleton, including the race deformer from `human.pbd`. The GPU draws them as camera-facing ribbons just before the UI, using the game's depth buffer so they don't show through walls or your body. Strands hidden that way or outside the view are skipped before drawing, and items far from the camera draw fewer strands. Each frame of fur is blended with the last ones, following it as it moves, so the thin tips don't twinkle.
 
@@ -27,7 +27,7 @@ Each strand takes its colour from the item's colour table and textures where it 
 - Expect around 20 fps with 1.67M strands across 8 items and an RTX 3070 at 1440p. To lessen the impact, lower Density or Children per strand in `/fur` (GPose has its own sliders for both), but it might look a little less like fur.
 - Items at 980k strands or more get skipped, except the Big Fluffy Coat. That means no TRPC blanket or Asylum wall/floor.
 - Shape keys are ignored.
-- Other human actors in GPose don't get fur.
+- Other players and GPose actors get fur only with "Other players" turned on in `/fur`, and only where their Hikari items show on your screen, which for other players takes a sync plugin such as Lightless, Mare or Snowcloak. Each extra fur coat costs about 230 MB of GPU memory.
 - Only V6 `.mdl` files work.
 
 I've only tested this on one female character, so male models and other races might have problems.
