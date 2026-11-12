@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.4.3.0",
+    "AssemblyVersion": "0.5.0.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.4.3/latest.zip",
-    "LastUpdate": "1794417795",
-    "Changelog": "New \"Other players\" setting (off by default): fur on the other characters around you and on actors posed in GPose, in their own colours. Other players' mods only show on your screen through a sync plugin (Lightless, Mare, Snowcloak), so their fur shows wherever their Hikari items do. Each extra fur coat costs GPU time and about 230 MB of GPU memory. Hair, tails and anything else resting on a fur item now lie on top of the fur instead of showing through it as dark streaks (new setting \"Hair lies on the fur\", on by default). Model files renamed by sync plugins now get the race fit too."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
+    "LastUpdate": "1794503825",
+    "Changelog": "About twice as fast: fur hidden behind other fur is no longer drawn, with the same look (on a full fur coat at 3 m the fur's GPU time dropped from about 11 ms to 5.5 ms per frame). Tidier settings window with Performance, GPose, Strand shape, Colour and light and a collapsed Advanced section; every tooltip now explains in plain words what higher and lower values do. Temporal smoothing now defaults to 90% (settings you already saved keep their value)."
   }
 ]
