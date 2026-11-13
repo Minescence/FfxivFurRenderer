@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.5.0.0",
+    "AssemblyVersion": "0.5.1.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any worn item or minion whose mod uses Hikari's fur textures, and draws them with the GPU. Follows the dye and the scene's light. Only you see it. The mods aren't included.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.0/latest.zip",
-    "LastUpdate": "1794503825",
-    "Changelog": "About twice as fast: fur hidden behind other fur is no longer drawn, with the same look (on a full fur coat at 3 m the fur's GPU time dropped from about 11 ms to 5.5 ms per frame). Tidier settings window with Performance, GPose, Strand shape, Colour and light and a collapsed Advanced section; every tooltip now explains in plain words what higher and lower values do. Temporal smoothing now defaults to 90% (settings you already saved keep their value)."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.1/latest.zip",
+    "LastUpdate": "1794577934",
+    "Changelog": "Fur no longer disappears behind an object pushed through or lying close over it when the strand tips stick out past the object's edge (for example, something pushed through a fur sleeve or tube)."
   }
 ]
