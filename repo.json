@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.5.4.0",
+    "AssemblyVersion": "0.5.5.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any chosen item or minion based on their texture or material, and draws them with the GPU. Follows the dye and the scene's light. Only you see it.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.4/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.4/latest.zip",
-    "LastUpdate": "1795380464",
-    "Changelog": "Fur no longer grows on Hikari's fur textures by default. List what should grow fur under \"Texture/Material Paths\" in /fur: a texture's game path, or a material's full path as Penumbra's On-Screen tab shows it. Vanilla items can grow fur too now."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.5/latest.zip",
+    "LastUpdate": "1795464850",
+    "Changelog": "Fixed flashing and too-bright patches in the fur: next to white hair and tails, beside a retainer or anyone standing against the item, and where only a sliver of the item shows."
   }
 ]
