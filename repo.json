@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.6.3.0",
+    "AssemblyVersion": "0.6.4.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any chosen item or minion based on their texture or material, and draws them with the GPU. Follows the dye and the scene's light. Only you see it.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.3/latest.zip",
-    "LastUpdate": "1795817724",
-    "Changelog": "Fixed the fur trims turning into flat grey bands when seen from a distance (about 10 m and further). The fur now keeps the coat's shading at any distance, like it does up close."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.4/latest.zip",
+    "LastUpdate": "1795819740",
+    "Changelog": "Fixed a dark line down the middle of the fur trims where they face the camera, which moved along as the camera moved. It came from the \"Partings\" setting, which is now a checkbox that is off by default. Turn it on in the settings for the deeper partings of the reference look."
   }
 ]
