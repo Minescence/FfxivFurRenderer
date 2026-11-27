@@ -40,3 +40,7 @@ Each strand takes its colour from the item's colour table and textures where it 
 - Only V6 `.mdl` files work.
 
 I've only tested this on one female character, so male models and other races might have problems.
+
+## Reporting a problem
+
+In `/fur`, click "Export all settings" and paste the text into your message. It copies your settings and what the plugin sees: the time of day, weather, zone, the game's graphics options, your GPU, your loaded plugins, and add-ons such as ReShade. Folder paths under your Windows user folder show as `%USERPROFILE%`.
