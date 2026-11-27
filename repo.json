@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.5.6.0",
+    "AssemblyVersion": "0.6.0.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any chosen item or minion based on their texture or material, and draws them with the GPU. Follows the dye and the scene's light. Only you see it.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.6/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.5.6/latest.zip",
-    "LastUpdate": "1795632509",
-    "Changelog": "Fixed the dark outline of fur around a tail or anything else lying on a fur item. New \"Smooth shadows\" setting: small shadows on the model no longer show as dark blotches in the fur. New \"Strand cap\" setting: very big items grow fewer, wider strands instead of using gigabytes of video memory. No more one-second freeze when the plugin loads."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.0/latest.zip",
+    "LastUpdate": "1795791425",
+    "Changelog": "Fur highlights now follow the game's sun by day and the moon at night. Swirls and partings get the deep colour of real fur, as in the reference renders (\"Partings\" now reaches the centre of a swirl; about 4x matches the renders). \"Smooth shadows\" no longer flattens the shading of collars, cuffs and hems, the fix for the dark outline around a tail works at any value, and it is now off by default (existing settings are set to off once). GPose uses the normal \"Density\" and \"Strands per root\"; the separate GPose settings are gone. \"Key light direction\" is gone, since the fur follows the game's light."
   }
 ]
