@@ -3,7 +3,7 @@
     "Author": "Minescence",
     "Name": "Fur Renderer",
     "InternalName": "FurRenderer",
-    "AssemblyVersion": "0.6.1.0",
+    "AssemblyVersion": "0.6.2.0",
     "Description": "Grows hundreds of thousands of skinned hair strands on any chosen item or minion based on their texture or material, and draws them with the GPU. Follows the dye and the scene's light. Only you see it.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Minescence/FfxivFurRenderer",
@@ -23,10 +23,10 @@
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.1/latest.zip",
-    "LastUpdate": "1795794850",
-    "Changelog": "Added \"Export all settings\" at the top of /fur. It copies your settings and what the plugin sees (time of day, weather, zone, the game's graphics options, your GPU, loaded plugins, and add-ons such as ReShade) to the clipboard. Paste it when you report a problem."
+    "DownloadLinkInstall": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.2/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Minescence/FfxivFurRenderer/releases/download/v0.6.2/latest.zip",
+    "LastUpdate": "1795800917",
+    "Changelog": "Fixed flicker along the bottom of the coat and the trims in daylight, most visible from a distance. The game moves its picture by a fraction of a pixel every frame for DLAA, DLSS and FSR, and the fur now follows that when it reads the coat's light.\n\nFixed dark specks and a blotchy look where you look into the fur (as if Strand variation were at maximum). Strands now take an even colour from the coat's fur texture. Strand variation now defaults to 0.4; if yours was at the old default of 0.2, it moves to 0.4, which gives the same look as before."
   }
 ]
